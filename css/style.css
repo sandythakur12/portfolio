@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #dea4eb;
+}
+
+header {
+    background-color: #2F3C7E;
+    color: white;
+    text-align:center;
+    padding: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FBEAEB;
+    box-shadow: 0 0 15px rgba(6, 6, 6, 0.2);
+    border-radius: 30px;
+}
+
+h1, h2, h3 {
+    color: #2F3C7E;
+}
+
+p {
+    line-height: 1.6;
+    color: #dea4eb;
+}
+p.headingColor{
+    font-size: 20px;
+    color: white;
+}
+
+h1.headingColor{
+    font-size: 20px;
+    color: white;
+    align-content:space-between ;
+}   
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.dogStyleImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 100px;
+    border: 2px solid rgb(69, 180, 10);
+    
+
+    
+    
+}
+
+section.dogBox {
+    height: 400px;
+    width: 400px;
+    background-color: #FBEAEB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+ 
+}
